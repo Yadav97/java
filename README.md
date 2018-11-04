@@ -1,7 +1,7 @@
 # java
 some java code
 
-here is the some java codess
+here we i practise java codes as beginners.
 
 
-what is the java
+
