@@ -2,14 +2,14 @@
 class BaseVersion1
 {
 	
-	BaseVersion1()
+	BaseVersion1() //Constructor-Meathod name is same as class name
 	{
 		
 		System.out.println("Base version");
 		
 		
 	}
-	BaseVersion1(int x)
+	BaseVersion1(int x) //Constructor overloading
 	{
 		System.out.println("Base version" + x);
 		
@@ -23,14 +23,14 @@ class BaseVersion1
 class DeriveVersion1 extends BaseVersion1
 {
 	
-	DeriveVersion1()
+	DeriveVersion1() //Constructor 
 	{
 		
 		System.out.println("Derive version");
 		
 	}
 	
-	DeriveVersion1(int x , int y)
+	DeriveVersion1(int x , int y) //Constructor overloading
 	{
 	
 		
